@@ -1,10 +1,17 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    flex-direction: column;
 }
+
 
 .photo {
     position: relative;
@@ -40,7 +47,7 @@ body{
     left: 60%;
     background-color: transparent;
     border: none;
-
+outline: none;
     
 }
 .btn1{
@@ -50,6 +57,7 @@ body{
     right: 60%;
     background-color: transparent;
     border: none;
+    outline: none;
 }
 
 @keyframes animate {
@@ -75,15 +83,23 @@ body{
    
 }
 
-.share .i{
+.share {
     font-size: 30px;
-    margin-left: 10px;
+    margin: 20px 0;
+    padding: 10px 0;
+    background-color: brown;
+    width: 400px;
 }
 img{
     position: relative;
     width: 30px;
     top: 4px;
+    padding-left: 10px;
 }
-.save{
-    padding-left: 250px;
+.share .save{
+    padding-left: 50% ;
+
+}
+i{
+    padding: 10px;
 }
